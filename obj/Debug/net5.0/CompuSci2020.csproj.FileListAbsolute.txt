@@ -1,0 +1,14 @@
+C:\Users\creek\Desktop\CompuSci2020\bin\Debug\net5.0\CompuSci2020.exe
+C:\Users\creek\Desktop\CompuSci2020\bin\Debug\net5.0\CompuSci2020.deps.json
+C:\Users\creek\Desktop\CompuSci2020\bin\Debug\net5.0\CompuSci2020.runtimeconfig.json
+C:\Users\creek\Desktop\CompuSci2020\bin\Debug\net5.0\CompuSci2020.runtimeconfig.dev.json
+C:\Users\creek\Desktop\CompuSci2020\bin\Debug\net5.0\CompuSci2020.dll
+C:\Users\creek\Desktop\CompuSci2020\bin\Debug\net5.0\ref\CompuSci2020.dll
+C:\Users\creek\Desktop\CompuSci2020\bin\Debug\net5.0\CompuSci2020.pdb
+C:\Users\creek\Desktop\CompuSci2020\obj\Debug\net5.0\CompuSci2020.csprojAssemblyReference.cache
+C:\Users\creek\Desktop\CompuSci2020\obj\Debug\net5.0\CompuSci2020.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\creek\Desktop\CompuSci2020\obj\Debug\net5.0\CompuSci2020.csproj.CoreCompileInputs.cache
+C:\Users\creek\Desktop\CompuSci2020\obj\Debug\net5.0\CompuSci2020.dll
+C:\Users\creek\Desktop\CompuSci2020\obj\Debug\net5.0\ref\CompuSci2020.dll
+C:\Users\creek\Desktop\CompuSci2020\obj\Debug\net5.0\CompuSci2020.pdb
+C:\Users\creek\Desktop\CompuSci2020\obj\Debug\net5.0\CompuSci2020.genruntimeconfig.cache
