@@ -111,7 +111,7 @@ namespace Projectile
             //print headers
             Console.WriteLine("Time;x;y;z;Distance;vx;vy;vz;Speed;ax;ay;az;m_Acc");
 
-            while(time<time_limit && !(grounded(position.GetZ(), on:stop_ground)))
+            while(time<time_limit && !(grounded(position.Z, on:stop_ground)))
             {
                 //air resistance
                 //C|v|^2 * (-1*unit vector for velocity)
@@ -132,7 +132,7 @@ namespace Projectile
                 Console.Write("\n");
 
 
-                acceleration.SetVector(force.GetX()/mass, force.GetY()/mass, force.GetZ()/mass);
+                acceleration.SetVector(force.X/mass, force.Y/mass, force.Z/mass);
                 //change in position according to velocity
                 position = position + (time_increment*velocity);
 
@@ -164,29 +164,29 @@ namespace Projectile
     //         y = yin;
     //         z = zin;
     //     }
-    //     public double GetX()
+    //     public double X
     //     {
     //         return x;
     //     }
 
-    //     public double GetY()
+    //     public double Y
     //     {
     //         return y;
     //     }
 
-    //     public double GetZ()
+    //     public double Z
     //     {
     //         return z;
     //     }
 
     //     public static Vector operator+ (Vector a, Vector b)
     //     {
-    //         return new Vector(a.GetX()+b.GetX(), a.GetY()+b.GetY(), a.GetZ()+b.GetZ());
+    //         return new Vector(a.X+b.X, a.Y+b.Y, a.Z+b.Z);
     //     }
 
     //     public static Vector operator* (double c, Vector a)
     //     {
-    //         return new Vector(a.GetX()*c, a.GetY()*c, a.GetZ()*c);
+    //         return new Vector(a.X*c, a.Y*c, a.Z*c);
     //     }
 
     //     public void print()
