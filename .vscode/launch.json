@@ -26,7 +26,7 @@
             "WARNING16": "button at the bottom of this file.",
             "WARNING17": "*********************************************************************************",
             "preLaunchTask": "build",
-            "program": "C:/Users/creek/Desktop/CompuSci2020/bin/Debug/net5.0/CompuSci.dll",
+            "program": "${workspaceFolder}/Projectile/bin/Debug/net5.0/Projectile.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",
