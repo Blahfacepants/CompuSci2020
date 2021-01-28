@@ -27,12 +27,12 @@ namespace UtilityLibraries
         public double Z {get; set;}
         public static Vector operator+ (Vector a, Vector b)
         {
-            return new Vector(a.GetX()+b.GetX(), a.GetY()+b.GetY(), a.GetZ()+b.GetZ());
+            return new Vector(a.X+b.X, a.Y+b.Y, a.Z+b.Z);
         }
 
         public static Vector operator* (double c, Vector a)
         {
-            return new Vector(a.GetX()*c, a.GetY()*c, a.GetZ()*c);
+            return new Vector(a.X*c, a.Y*c, a.Z*c);
         }
 
         public static Vector operator* (Vector a, double c)
@@ -42,7 +42,7 @@ namespace UtilityLibraries
 
         public static Vector operator- (Vector a, Vector b)
         {
-            return new Vector(a.GetX()-b.GetX(), a.GetY()-b.GetY(), a.GetZ()-b.GetZ());
+            return new Vector(a.X-b.X, a.Y-b.Y, a.Z-b.Z);
         }
 
         override public string ToString()
