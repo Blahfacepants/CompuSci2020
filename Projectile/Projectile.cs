@@ -7,7 +7,7 @@ namespace Projectile
     {
         static void Main(string[] args)
         {
-            Level3();
+            Level1();
         }
 
         static void Level1()

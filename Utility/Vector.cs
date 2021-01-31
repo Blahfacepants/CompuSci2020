@@ -22,9 +22,39 @@ namespace UtilityLibraries
             y = yin;
             z = zin;
         }
-        public double X {get; set;}
-        public double Y {get; set;}
-        public double Z {get; set;}
+        public double X 
+        {
+            get
+            {
+                return x;
+            }
+            set
+            {
+                x = value;
+            }
+        }
+        public double Y
+        {
+            get
+            {
+                return y;
+            }
+            set
+            {
+                y = value;
+            }
+        }
+        public double Z
+        {
+            get
+            {
+                return z;
+            }
+            set
+            {
+                z = value;
+            }
+        }
         public static Vector operator+ (Vector a, Vector b)
         {
             return new Vector(a.X+b.X, a.Y+b.Y, a.Z+b.Z);
