@@ -70,6 +70,11 @@ namespace UtilityLibraries
             return c*a;
         }
 
+        public static Vector operator/ (Vector a, double c)
+        {
+            return new Vector(a.X/c, a.Y/c, a.Z/c);
+        }
+
         public static Vector operator- (Vector a, Vector b)
         {
             return new Vector(a.X-b.X, a.Y-b.Y, a.Z-b.Z);
