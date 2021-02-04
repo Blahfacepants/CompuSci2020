@@ -16,6 +16,10 @@ namespace UtilityLibraries
         {
             return Math.Sqrt((x*x)+(y*y)+(z*z));
         }
+        public Vector GetUnitVector()
+        {
+            return this*(1/this.GetMagnitude());
+        }
         public void SetVector(double xin, double yin, double zin)
         {
             x = xin;
@@ -78,6 +82,11 @@ namespace UtilityLibraries
         public static Vector operator- (Vector a, Vector b)
         {
             return new Vector(a.X-b.X, a.Y-b.Y, a.Z-b.Z);
+        }
+
+        public static Vector operator- (Vector a)
+        {
+            return -1*a;
         }
 
         override public string ToString()

@@ -1,7 +1,7 @@
 using System;
 using UtilityLibraries;
 
-namespace ProjectileMain
+namespace Projectile
 {
     class Program
     {
