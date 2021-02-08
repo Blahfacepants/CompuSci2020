@@ -10,13 +10,15 @@ namespace Projectile
         private bool verbose = true;//controls whether or not output is printed to the terminal after every tick
         private double time = 0;
         private List<Projectile> projectiles;
-        private double k_spring;
-        private double spring_length_unstretched;
+        private double k_spring = 0;
+        private double spring_length_unstretched = 0;
         private Vector spring_origin;
-        public World(bool printOutputSetting=true, double startTime=0)
+        public World(bool printOutputSetting=true, double startTime=0, double k_spring=0, double spring_length_unstretched=0)
         {
             verbose = printOutputSetting;
             time = startTime;
+            this.k_spring = k_spring;
+            this.spring_length_unstretched = spring_length_unstretched;
             spring_origin = new Vector(0,0,0);
         }
         public void AddProjectile(Projectile p)
