@@ -8,8 +8,8 @@ namespace Projectile
     {
         private double g_gravity = 9.8;//m/s2
         private bool verbose = true;//controls whether or not output is printed to the terminal after every tick
-        private double time = 0;
-        private List<Projectile> projectiles;
+        public double time{get; set;}
+        public List<Projectile> projectiles{get;}
         private double k_spring = 0;
         private double spring_length_unstretched = 0;
         private Vector spring_origin;
