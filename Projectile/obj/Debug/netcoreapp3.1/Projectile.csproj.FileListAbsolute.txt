@@ -1,0 +1,16 @@
+C:\Users\creek\Desktop\CompuSci2020\Projectile\bin\Debug\netcoreapp3.1\Projectile.exe
+C:\Users\creek\Desktop\CompuSci2020\Projectile\bin\Debug\netcoreapp3.1\Projectile.deps.json
+C:\Users\creek\Desktop\CompuSci2020\Projectile\bin\Debug\netcoreapp3.1\Projectile.runtimeconfig.json
+C:\Users\creek\Desktop\CompuSci2020\Projectile\bin\Debug\netcoreapp3.1\Projectile.runtimeconfig.dev.json
+C:\Users\creek\Desktop\CompuSci2020\Projectile\bin\Debug\netcoreapp3.1\Projectile.dll
+C:\Users\creek\Desktop\CompuSci2020\Projectile\bin\Debug\netcoreapp3.1\Projectile.pdb
+C:\Users\creek\Desktop\CompuSci2020\Projectile\bin\Debug\netcoreapp3.1\Utility.dll
+C:\Users\creek\Desktop\CompuSci2020\Projectile\bin\Debug\netcoreapp3.1\Utility.pdb
+C:\Users\creek\Desktop\CompuSci2020\Projectile\obj\Debug\netcoreapp3.1\Projectile.csprojAssemblyReference.cache
+C:\Users\creek\Desktop\CompuSci2020\Projectile\obj\Debug\netcoreapp3.1\Projectile.AssemblyInfoInputs.cache
+C:\Users\creek\Desktop\CompuSci2020\Projectile\obj\Debug\netcoreapp3.1\Projectile.AssemblyInfo.cs
+C:\Users\creek\Desktop\CompuSci2020\Projectile\obj\Debug\netcoreapp3.1\Projectile.csproj.CoreCompileInputs.cache
+C:\Users\creek\Desktop\CompuSci2020\Projectile\obj\Debug\netcoreapp3.1\Projectile.csproj.CopyComplete
+C:\Users\creek\Desktop\CompuSci2020\Projectile\obj\Debug\netcoreapp3.1\Projectile.dll
+C:\Users\creek\Desktop\CompuSci2020\Projectile\obj\Debug\netcoreapp3.1\Projectile.pdb
+C:\Users\creek\Desktop\CompuSci2020\Projectile\obj\Debug\netcoreapp3.1\Projectile.genruntimeconfig.cache

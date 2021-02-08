@@ -2,7 +2,7 @@ using System;
 using UtilityLibraries;
 using System.Collections.Generic;
 
-namespace Projectile
+namespace ProjectileN
 {
     public class World
     {

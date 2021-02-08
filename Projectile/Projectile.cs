@@ -1,7 +1,7 @@
 using System;
 using UtilityLibraries;
 
-namespace Projectile
+namespace ProjectileN
 {
     public class Projectile
     {
