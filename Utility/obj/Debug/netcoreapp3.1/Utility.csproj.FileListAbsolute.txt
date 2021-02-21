@@ -7,3 +7,10 @@ C:\Users\creek\Desktop\CompuSci2020\Utility\obj\Debug\netcoreapp3.1\Utility.Asse
 C:\Users\creek\Desktop\CompuSci2020\Utility\obj\Debug\netcoreapp3.1\Utility.csproj.CoreCompileInputs.cache
 C:\Users\creek\Desktop\CompuSci2020\Utility\obj\Debug\netcoreapp3.1\Utility.dll
 C:\Users\creek\Desktop\CompuSci2020\Utility\obj\Debug\netcoreapp3.1\Utility.pdb
+C:\Users\creek\Desktop\CompuSci2020\Utility\bin\Debug\netcoreapp3.1\PresentationCore.dll
+C:\Users\creek\Desktop\CompuSci2020\Utility\bin\Debug\netcoreapp3.1\UIAutomationProvider.dll
+C:\Users\creek\Desktop\CompuSci2020\Utility\bin\Debug\netcoreapp3.1\UIAutomationTypes.dll
+C:\Users\creek\Desktop\CompuSci2020\Utility\bin\Debug\netcoreapp3.1\es\PresentationCore.resources.dll
+C:\Users\creek\Desktop\CompuSci2020\Utility\bin\Debug\netcoreapp3.1\es\UIAutomationProvider.resources.dll
+C:\Users\creek\Desktop\CompuSci2020\Utility\bin\Debug\netcoreapp3.1\es\UIAutomationTypes.resources.dll
+C:\Users\creek\Desktop\CompuSci2020\Utility\obj\Debug\netcoreapp3.1\Utility.csproj.CopyComplete

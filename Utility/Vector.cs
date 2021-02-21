@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Windows.Media.Media3D;
 
 namespace UtilityLibraries
 {
@@ -18,7 +19,7 @@ namespace UtilityLibraries
         }
         public Vector GetUnitVector()
         {
-            return this*(1/this.GetMagnitude());
+            return this / this.GetMagnitude();
         }
         public void SetVector(double xin, double yin, double zin)
         {

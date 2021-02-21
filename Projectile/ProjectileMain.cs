@@ -5,10 +5,6 @@ namespace ProjectileN
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            Level1();
-        }
 
         static void Level1()
         {

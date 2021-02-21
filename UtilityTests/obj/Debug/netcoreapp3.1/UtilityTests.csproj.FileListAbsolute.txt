@@ -95,3 +95,6 @@ C:\Users\creek\Desktop\CompuSci2020\UtilityTests\obj\Debug\netcoreapp3.1\Utility
 C:\Users\creek\Desktop\CompuSci2020\UtilityTests\obj\Debug\netcoreapp3.1\UtilityTests.dll
 C:\Users\creek\Desktop\CompuSci2020\UtilityTests\obj\Debug\netcoreapp3.1\UtilityTests.pdb
 C:\Users\creek\Desktop\CompuSci2020\UtilityTests\obj\Debug\netcoreapp3.1\UtilityTests.genruntimeconfig.cache
+C:\Users\creek\Desktop\CompuSci2020\UtilityTests\bin\Debug\netcoreapp3.1\Projectile.exe
+C:\Users\creek\Desktop\CompuSci2020\UtilityTests\bin\Debug\netcoreapp3.1\Projectile.dll
+C:\Users\creek\Desktop\CompuSci2020\UtilityTests\bin\Debug\netcoreapp3.1\Projectile.pdb
