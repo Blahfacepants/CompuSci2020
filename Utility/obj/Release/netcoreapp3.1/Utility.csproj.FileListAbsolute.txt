@@ -1,0 +1,16 @@
+C:\Users\creek\Desktop\CompuSci2020\Utility\bin\Release\netcoreapp3.1\Utility.deps.json
+C:\Users\creek\Desktop\CompuSci2020\Utility\bin\Release\netcoreapp3.1\Utility.dll
+C:\Users\creek\Desktop\CompuSci2020\Utility\bin\Release\netcoreapp3.1\Utility.pdb
+C:\Users\creek\Desktop\CompuSci2020\Utility\bin\Release\netcoreapp3.1\PresentationCore.dll
+C:\Users\creek\Desktop\CompuSci2020\Utility\bin\Release\netcoreapp3.1\UIAutomationProvider.dll
+C:\Users\creek\Desktop\CompuSci2020\Utility\bin\Release\netcoreapp3.1\UIAutomationTypes.dll
+C:\Users\creek\Desktop\CompuSci2020\Utility\bin\Release\netcoreapp3.1\es\PresentationCore.resources.dll
+C:\Users\creek\Desktop\CompuSci2020\Utility\bin\Release\netcoreapp3.1\es\UIAutomationProvider.resources.dll
+C:\Users\creek\Desktop\CompuSci2020\Utility\bin\Release\netcoreapp3.1\es\UIAutomationTypes.resources.dll
+C:\Users\creek\Desktop\CompuSci2020\Utility\obj\Release\netcoreapp3.1\Utility.csprojAssemblyReference.cache
+C:\Users\creek\Desktop\CompuSci2020\Utility\obj\Release\netcoreapp3.1\Utility.AssemblyInfoInputs.cache
+C:\Users\creek\Desktop\CompuSci2020\Utility\obj\Release\netcoreapp3.1\Utility.AssemblyInfo.cs
+C:\Users\creek\Desktop\CompuSci2020\Utility\obj\Release\netcoreapp3.1\Utility.csproj.CoreCompileInputs.cache
+C:\Users\creek\Desktop\CompuSci2020\Utility\obj\Release\netcoreapp3.1\Utility.csproj.CopyComplete
+C:\Users\creek\Desktop\CompuSci2020\Utility\obj\Release\netcoreapp3.1\Utility.dll
+C:\Users\creek\Desktop\CompuSci2020\Utility\obj\Release\netcoreapp3.1\Utility.pdb

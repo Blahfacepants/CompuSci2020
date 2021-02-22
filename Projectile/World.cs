@@ -35,7 +35,7 @@ namespace ProjectileN
             connections = new Dictionary<int, int>();
         }
         public World(Dictionary<int, int> proj_connections, bool printOutputSetting = true, bool stop_on_ground = false, double startTime = 0, double k_spring = 0,
-            double spring_length_unstretched = 0, double g_gravity = 0, double time_limit = 100,
+            double spring_length_unstretched = 0, double g_gravity = 0, double time_limit = 100000000000,
             bool connected_projectiles = false, bool origin_spring=true) : this(printOutputSetting, stop_on_ground, startTime, k_spring, spring_length_unstretched, g_gravity, time_limit, origin_spring)
         {
             connections = new Dictionary<int, int>(proj_connections);
@@ -80,16 +80,7 @@ namespace ProjectileN
         }
         public Vector CalculateForce(Projectile p, int id)
         {
-            Vector gravity;
-            try
-            {
-                gravity = Gravity(p, projectiles[connections[id]]);
-            }
-            catch(KeyNotFoundException e)
-            {
-                System.Console.WriteLine("connection not provided, applying 0 force");
-                return new Vector(0,0,0);
-            }
+            Vector gravity = Gravity(p, projectiles[connections[id]]);
             //Vector air_resistance = AirResistance(p);
             //Vector spring_force = new Vector();
             //REMOVED FOR PERFORMANCE REASONS
@@ -117,7 +108,28 @@ namespace ProjectileN
         }
         public Vector Gravity(Projectile p, Projectile p2, double G=6.67430e-11)
         {
-            return G * ((p.mass * p2.mass) / ((p.position - p2.position).GetMagnitude() * (p.position - p2.position).GetMagnitude())) * (p2.position - p.position);
+            if (p2.ProjectileShape == Shape.Point)
+            {
+                Vector output = G * ((p.mass * p2.mass) / ((p.position - p2.position).GetMagnitude() * (p.position - p2.position).GetMagnitude())) * (p2.position - p.position).GetUnitVector();
+                //Debug.WriteLine(output);
+                return output;
+            }
+
+            else
+            {
+                Vector output = new Vector(0, 0, 0);
+                foreach(int i in Enumerable.Range(0,p2.position_pts.Count))
+                {
+                    output += GravityFromPoint(p, p2.position_pts[i], p2.mass_pts[i], G);
+                }
+                //Debug.WriteLine(output.Y/projectiles[1].position.Y);
+                return output;
+            }
+        }
+        private Vector GravityFromPoint(Projectile p, Vector origin, double origin_mass, double G)
+        {
+            Vector output = G * ((p.mass * origin_mass) / ((p.position - origin).GetMagnitude() * (p.position - origin).GetMagnitude())) * (origin - p.position).GetUnitVector();
+            return output;
         }
     }
 }
