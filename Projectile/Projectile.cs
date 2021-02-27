@@ -72,7 +72,8 @@ namespace ProjectileN
             ConfigDistribution(this.ProjectileShape, radius, ptcount);
         }
 
-        public Projectile(double mass, Vector position, Vector velocity, Vector acceleration, double c_air = 0, bool immovable = false, Shape shape = Shape.Point, double radius = 0, int ptcount = 1) : this(mass, c_air:c_air, immovable:immovable, shape:shape, radius:radius, ptcount:ptcount)
+        public Projectile(double mass, Vector position, Vector velocity, Vector acceleration, double c_air = 0, bool immovable = false, Shape shape = Shape.Point, double radius = 0, int ptcount = 1)
+            : this(mass, c_air:c_air, immovable:immovable, shape:shape, radius:radius, ptcount:ptcount)
         {
             this.position = new Vector(position.X, position.Y, position.Z);
             this.velocity = new Vector(velocity.X, velocity.Y, velocity.Z);
@@ -187,10 +188,27 @@ namespace ProjectileN
                     }
                 }
             }
-            mass_pts.AddRange(Enumerable.Repeat(mass / position_pts.Count, position_pts.Count));
             //Debug.WriteLine(mass_pts.Sum());
         }
 
+        public void ConfigTetrahedron(List<Vector> vertices, int count)
+        {
+            List<Vector> face = vertices.GetRange(0, 3);
+
+
+        }
+
+        private List<Vector> ConfigTriangle(List<Vector> vertices, int count)
+        {
+            List<Vector> output = new List<Vector>();
+            if(count > 3)
+            {
+                foreach(Vector v in vertices)
+                {
+
+                }
+            }
+        }
         //changes acceleration to new value based on applied net force
         //discards old acceleration and applied forces.
         public void ApplyForce(Vector force)

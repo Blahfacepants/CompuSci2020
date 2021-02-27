@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisualizerBaseClasses", "Ki
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFUtility", "Kinematics2021\WPFUtility\WPFUtility.csproj", "{AF62643C-4FE9-4C8E-805B-B97B001081A3}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geometry", "Kinematics2021\Geometry\Geometry.csproj", "{0ADD3919-4CC4-403A-B211-A8B9E4A63026}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +185,18 @@ Global
 		{AF62643C-4FE9-4C8E-805B-B97B001081A3}.Release|x64.Build.0 = Release|Any CPU
 		{AF62643C-4FE9-4C8E-805B-B97B001081A3}.Release|x86.ActiveCfg = Release|Any CPU
 		{AF62643C-4FE9-4C8E-805B-B97B001081A3}.Release|x86.Build.0 = Release|Any CPU
+		{0ADD3919-4CC4-403A-B211-A8B9E4A63026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ADD3919-4CC4-403A-B211-A8B9E4A63026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ADD3919-4CC4-403A-B211-A8B9E4A63026}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0ADD3919-4CC4-403A-B211-A8B9E4A63026}.Debug|x64.Build.0 = Debug|Any CPU
+		{0ADD3919-4CC4-403A-B211-A8B9E4A63026}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0ADD3919-4CC4-403A-B211-A8B9E4A63026}.Debug|x86.Build.0 = Debug|Any CPU
+		{0ADD3919-4CC4-403A-B211-A8B9E4A63026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ADD3919-4CC4-403A-B211-A8B9E4A63026}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ADD3919-4CC4-403A-B211-A8B9E4A63026}.Release|x64.ActiveCfg = Release|Any CPU
+		{0ADD3919-4CC4-403A-B211-A8B9E4A63026}.Release|x64.Build.0 = Release|Any CPU
+		{0ADD3919-4CC4-403A-B211-A8B9E4A63026}.Release|x86.ActiveCfg = Release|Any CPU
+		{0ADD3919-4CC4-403A-B211-A8B9E4A63026}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

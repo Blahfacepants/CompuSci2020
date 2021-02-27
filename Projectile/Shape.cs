@@ -9,6 +9,7 @@ namespace ProjectileN
         Cube,
         Sphere,
         Point,
-        Shell
+        Shell,
+        Tetrahedron
     }
 }
