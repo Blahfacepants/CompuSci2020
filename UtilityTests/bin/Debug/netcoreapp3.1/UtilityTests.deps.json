@@ -1074,6 +1074,7 @@
       },
       "Projectile/1.0.0": {
         "dependencies": {
+          "System.Collections": "4.3.0",
           "Utility": "1.0.0"
         },
         "runtime": {

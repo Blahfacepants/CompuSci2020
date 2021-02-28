@@ -44,6 +44,8 @@ namespace ProjectileN
                 connections.TryAdd(connections[key], key);
             }
         }
+
+
         public void AddProjectile(Projectile p)
         {
             this.projectiles.Add(p);
@@ -122,7 +124,7 @@ namespace ProjectileN
                 {
                     output += GravityFromPoint(p, p2.position_pts[i], p2.mass_pts[i], G);
                 }
-                //Debug.WriteLine(output.Y/projectiles[1].position.Y);
+                Debug.WriteLine(output.Y/projectiles[1].position.Y);
                 return output;
             }
         }

@@ -89,6 +89,7 @@ namespace ProjectileN
         /// <param name="count">disregarded for point, number of points for cube, number of shells for sphere</param>
         private void ConfigDistribution(Shape shape, double radius, int count)
         {
+            Debug.WriteLine("shape configged");
             if(shape == Shape.Point)
             {
                 position_pts.Clear();
@@ -189,6 +190,7 @@ namespace ProjectileN
                 }
             }
             //Debug.WriteLine(mass_pts.Sum());
+            mass_pts.AddRange(Enumerable.Repeat(mass / position_pts.Count, position_pts.Count));
         }
 
         public void ConfigTetrahedron(List<Vector> vertices, int count)
@@ -198,17 +200,17 @@ namespace ProjectileN
 
         }
 
-        private List<Vector> ConfigTriangle(List<Vector> vertices, int count)
-        {
-            List<Vector> output = new List<Vector>();
-            if(count > 3)
-            {
-                foreach(Vector v in vertices)
-                {
+        //private List<Vector> ConfigTriangle(List<Vector> vertices, int count)
+        //{
+        //    List<Vector> output = new List<Vector>();
+        //    if(count > 3)
+        //    {
+        //        foreach(Vector v in vertices)
+        //        {
 
-                }
-            }
-        }
+        //        }
+        //    }
+        //}
         //changes acceleration to new value based on applied net force
         //discards old acceleration and applied forces.
         public void ApplyForce(Vector force)
